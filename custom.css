@@ -47,6 +47,7 @@ header li a {
 #searchbar input{
 	text-align: center;
 	margin-top: 10px;
+
 }
 #logo img, #searchbar input:first-child{
 	display: block;
@@ -56,4 +57,38 @@ header li a {
 #searcharea {
 	width: 50%;
 	height: 30px;
+}
+
+footer{
+	background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul#botleft{
+	float: left;
+}
+footer ul#botright{
+	float: right;
+}
+footer li{
+	display: inline;
+	text-align: center;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+footer li a {
+	display: block;
+    text-align: center;
+    text-decoration: none;
 }
