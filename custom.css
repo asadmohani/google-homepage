@@ -1,0 +1,59 @@
+/**{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}*/
+/*#gb header{
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+
+}*/
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+header li{
+	display: inline;
+	text-align: center;
+	float: right;
+	padding: 5px;
+	vertical-align: middle;
+	line-height: 25px
+
+}
+
+header li a {
+	display: block;
+    text-align: center;
+    text-decoration: none;
+}
+#grid{
+	width: 25px;
+	height: 25px;
+}
+
+#mid{
+	clear: both;
+}
+#logo {
+	padding-top: 150px;
+}
+#searchbar{
+	text-align: center;
+	margin: auto;
+}
+#searchbar input{
+	text-align: center;
+	margin-top: 10px;
+}
+#logo img, #searchbar input:first-child{
+	display: block;
+	margin: auto;
+
+}
+#searcharea {
+	width: 50%;
+	height: 30px;
+}
